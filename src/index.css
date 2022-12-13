@@ -1,0 +1,54 @@
+@import url('https://fonts.google.com/specimen/Outfit?query=outfit');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,p,a,h4{
+  color: #ffff;
+}
+
+body {
+  margin: 0;
+  font-family:'outfit','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro,Menlo,Monaco,Consolas,'courier New',monospace;
+}
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  text-decoration: uppercase;
+  background: transparent;
+  color: #ffff;
+  border: 1px solid #ffff;
+  cursor: pointer;
+}
+
+.btn-light{
+  background: rgba(255, 255, 255, .2);
+}
+
+.btn:hover{
+  background: rgba(255, 255, 255, .2);
+}
